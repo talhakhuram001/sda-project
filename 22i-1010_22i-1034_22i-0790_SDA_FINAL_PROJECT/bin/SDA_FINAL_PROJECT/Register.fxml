@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml" fx:controller="SDA_FINAL_PROJECT.RegisterController">
+    <Label text="Register New User" style="-fx-font-size: 18;" />
+    <TextField fx:id="usernameField" promptText="Username" />
+    <PasswordField fx:id="passwordField" promptText="Password" />
+    <TextField fx:id="emailField" promptText="Email" />
+    <ComboBox fx:id="userTypeComboBox" promptText="Select User Type" />
+    <Button text="Register" onAction="#handleRegister" />
+    <Button text="Back to Login" onAction="#goToLogin" />
+</VBox>
